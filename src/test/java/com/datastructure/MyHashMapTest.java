@@ -4,10 +4,7 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 public class MyHashMapTest {
-    public static void main(String[] args) {
-        System.out.println("Welcome to hash table");
-    }
-   /* @Test
+    @Test
     public void givenASentence_WhenWordsAreAddedToList_ShouldReturnWordFrequency() {
         String sentence = "To be or not to be";
         MyHashMap<String, Integer> myHashMap = new MyHashMap<>();
@@ -21,5 +18,5 @@ public class MyHashMapTest {
         int frequency = myHashMap.get("to");
         System.out.println(myHashMap);
         Assertions.assertEquals(2,frequency);
-    }*/
+    }
 }
