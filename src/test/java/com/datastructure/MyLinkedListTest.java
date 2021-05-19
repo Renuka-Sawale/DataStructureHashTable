@@ -49,6 +49,4 @@ public class MyLinkedListTest {
         System.out.println(result.getKey());
         Assertions.assertEquals(mySecondNode.getKey(),result.getKey());
     }
-
-
 }
